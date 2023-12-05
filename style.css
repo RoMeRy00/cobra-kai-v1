@@ -1,0 +1,223 @@
+* {
+    /* *надає стилі всім тегам */
+    /* зазвичай сьуди пишуть відключення базових стилів */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    /* тут будуть стилі для боді */
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header,
+footer {
+    min-height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.hero {
+    padding: 20px 0 20px 0;
+}
+
+/* .hero div{
+    width: 50%;
+} */
+.hero div img {
+    width: 100%;
+}
+
+.hero div h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hero div p {
+    font-size: 24px;
+    text-align: justify;
+    margin-bottom: 24px;
+}
+
+.hero div:nth-child(1) {
+    width: 35%;
+    padding-right: 50px;
+}
+
+.hero div:nth-child(2) {
+    width: 60%;
+}
+
+a {
+    color: rgb(87, 233, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Pixelify Sans', cursive;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.ofsaite {
+    background-color: rgb(87, 233, 255);
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.video {
+    border-top: 1px solid #000;
+    padding-top: 24px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 24px;
+}
+
+.video .ofsaite {
+    margin-top: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 143px;
+    text-align: center;
+}
+
+.video h2 {
+    text-align: center;
+}
+
+.container {
+    max-width: 1110px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto.flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.foto article {
+    max-width: 480px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 24px;
+}
+.foto article a {
+    z-index: 100;
+}
+
+.foto article h3 {
+    z-index: 100;
+}
+.foto article img {
+    width: 100%;
+}
+
+.foto>div {
+    position: relative;
+}
+
+.foto div .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.345);
+    padding: 20px;
+    font-size: 20px;
+    visibility: hidden;
+transition: visibility 0.5s ease;
+}
+
+.foto div:hover .text {
+visibility: visible;
+
+}
+
+footer {
+    color: rgb(87, 233, 255);
+    text-align: center;
+    margin-top: 48px;
+}
+
+.galery article img {
+    height: 300px;
+}
+
+.galery-item {
+    padding-top: 24px;
+}
+
+.galery-item h2 {
+    text-align: center;
+}
+
+.galery-item article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.video-galery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 10px;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.top {
+    display: flex;
+    align-items: start;
+    font-weight: 900;
+}
