@@ -84,7 +84,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Pixelify Sans', cursive;
+    font-family: 'Nunito Sans', sans-serif;
     text-transform: uppercase;
     margin-bottom: 16px;
 }
@@ -121,6 +121,8 @@ h6 {
 
     margin-left: auto;
     margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .foto.flex {
@@ -128,7 +130,10 @@ h6 {
     justify-content: center;
     gap: 24px;
 }
-
+.foto h2 {
+    width: 100%;
+    text-align: center;
+}
 .foto article {
     max-width: 480px;
     display: flex;
