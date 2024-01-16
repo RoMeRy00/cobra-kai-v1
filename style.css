@@ -206,7 +206,7 @@ footer {
 .video-galery {
     display: flex;
     flex-wrap: wrap;
-}
+    justify-content: center;}
 
 table {
     margin-left: auto;
